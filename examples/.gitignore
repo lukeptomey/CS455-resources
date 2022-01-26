@@ -1,3 +1,7 @@
+# Eclipse stuff
+threads/.settings
+threads/.classpath
+threads/.project
 # auto-generated rpc files
 rpc/multithreaded-square/Makefile.square
 rpc/multithreaded-square/square.h
@@ -50,6 +54,7 @@ rpc/userlookup/client
 rpc/userlookup/userlookup_server
 sockets/out_of_band/oobrecv
 sockets/out_of_band/oobsend
+sockets/.settings
 #
 security/password-input/test_password
 sockets-C/misc/byteorder
