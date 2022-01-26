@@ -1,0 +1,288 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargerHttpd",
+            "request": "launch",
+            "mainClass": "LargerHttpd",
+            "projectName": "LargerHttpd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyClient",
+            "request": "launch",
+            "mainClass": "callback.client.MyClient",
+            "projectName": "RMI Example 2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyServer",
+            "request": "launch",
+            "mainClass": "callback.server.MyServer",
+            "projectName": "RMI Example 2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecryptTest",
+            "request": "launch",
+            "mainClass": "DecryptTest",
+            "projectName": "encryption"
+        },
+        {
+            "type": "java",
+            "name": "Launch EncryptTest",
+            "request": "launch",
+            "mainClass": "EncryptTest",
+            "projectName": "encryption"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareClient",
+            "request": "launch",
+            "mainClass": "square.client.SquareClient",
+            "projectName": "ex2-SquareServer"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareServer",
+            "request": "launch",
+            "mainClass": "square.server.SquareServer",
+            "projectName": "ex2-SquareServer"
+        },
+        {
+            "type": "java",
+            "name": "Launch Groupie",
+            "request": "launch",
+            "mainClass": "Groupie",
+            "projectName": "ex3-mcast-group"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyClient(1)",
+            "request": "launch",
+            "mainClass": "asynchronous.client.MyClient",
+            "projectName": "ex4-async-server"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyServer(1)",
+            "request": "launch",
+            "mainClass": "asynchronous.server.MyServer",
+            "projectName": "ex4-async-server"
+        },
+        {
+            "type": "java",
+            "name": "Launch RMIThreadClient",
+            "request": "launch",
+            "mainClass": "RMIThreadClient",
+            "projectName": "ex7-RMI-Thread-Safety"
+        },
+        {
+            "type": "java",
+            "name": "Launch RMIThreadServerImpl",
+            "request": "launch",
+            "mainClass": "RMIThreadServerImpl",
+            "projectName": "ex7-RMI-Thread-Safety"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListProviders",
+            "request": "launch",
+            "mainClass": "ListProviders",
+            "projectName": "providers"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloClient",
+            "request": "launch",
+            "mainClass": "hello.client.HelloClient",
+            "projectName": "rmi-ex1-hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloServer",
+            "request": "launch",
+            "mainClass": "hello.server.HelloServer",
+            "projectName": "rmi-ex1-hello-world"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateClient",
+            "request": "launch",
+            "mainClass": "DateClient",
+            "projectName": "rmi-ssl-ex1"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateServerImpl",
+            "request": "launch",
+            "mainClass": "DateServerImpl",
+            "projectName": "rmi-ssl-ex1"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareClient(1)",
+            "request": "launch",
+            "mainClass": "client.SquareClient",
+            "projectName": "rmi-ssl-ex2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareServer(1)",
+            "request": "launch",
+            "mainClass": "server.SquareServer",
+            "projectName": "rmi-ssl-ex2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cryogenics",
+            "request": "launch",
+            "mainClass": "Cryogenics",
+            "projectName": "serialization"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoadTable",
+            "request": "launch",
+            "mainClass": "LoadTable",
+            "projectName": "serialization"
+        },
+        {
+            "type": "java",
+            "name": "Launch SaveTable",
+            "request": "launch",
+            "mainClass": "SaveTable",
+            "projectName": "serialization"
+        },
+        {
+            "type": "java",
+            "name": "Launch SHA2Test",
+            "request": "launch",
+            "mainClass": "SHA2Test",
+            "projectName": "sha-md5sums"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "ssl-sockets"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "ssl-sockets"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExecutorExample",
+            "request": "launch",
+            "mainClass": "ExecutorExample",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterruptTest",
+            "request": "launch",
+            "mainClass": "InterruptTest",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPrcoesses",
+            "request": "launch",
+            "mainClass": "MaxPrcoesses",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxThreads",
+            "request": "launch",
+            "mainClass": "MaxThreads",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch PC",
+            "request": "launch",
+            "mainClass": "PC",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch PingPong",
+            "request": "launch",
+            "mainClass": "PingPong",
+            "projectName": "threads",
+            "args": "5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProcessExample",
+            "request": "launch",
+            "mainClass": "ProcessExample",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch SynchronizedPingPong",
+            "request": "launch",
+            "mainClass": "SynchronizedPingPong",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAccount",
+            "request": "launch",
+            "mainClass": "TestAccount",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadExample",
+            "request": "launch",
+            "mainClass": "ThreadExample",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadGroupExample",
+            "request": "launch",
+            "mainClass": "ThreadGroupExample",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadRunnableExample",
+            "request": "launch",
+            "mainClass": "ThreadRunnableExample",
+            "projectName": "threads"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(1)",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "tiny-httpd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TinyHttpd",
+            "request": "launch",
+            "mainClass": "TinyHttpd",
+            "projectName": "tiny-httpd"
+        }
+    ]
+}
